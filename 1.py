@@ -34,7 +34,7 @@ st.write("""
 # Plotting opening price on Line Chart of Apple Inc
 st.line_chart(obj_historical_df.Open)
 st.write("""
-    The variation in opening price of Apple Inc during the period 1/1/2020 - 28/10/2020
+    The variation in opening prices of Apple Inc during the period 1/1/2020 - 28/10/2020
 """)
 
 # Adding Newline
@@ -50,7 +50,7 @@ st.write("""
 # Plotting closing price on Line Chart of Apple Inc
 st.line_chart(obj_historical_df.Close)
 st.write("""
-    The variation in closing price of Apple Inc during the period 1/1/2020 - 28/10/2020
+    The variation in closing prices of Apple Inc during the period 1/1/2020 - 28/10/2020
 """)
 
 # Adding Newline
@@ -65,7 +65,7 @@ st.write("""
 # Plotting volume on Line Chart of Apple Inc
 st.line_chart(obj_historical_df.Volume)
 st.write("""
-    The variation in volume of Apple Inc during the period 1/1/2020 - 28/10/2020
+    The variation in volume prices of Apple Inc during the period 1/1/2020 - 28/10/2020
     
 
 
